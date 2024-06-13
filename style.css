@@ -44,7 +44,8 @@ button:hover{
     background: #2ecc70d0 !important; 
 }
 .services-box{
-    transition: 0.6s ease;
+    transition: 0.6s ease-in;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     /* margin-top: -80px; */
 }
 .services-box:hover{
@@ -98,6 +99,9 @@ button:hover{
     }
     .dsm-none{
         display: none;
+    }
+    section{
+        padding: 30px 0 !important;
     }
 }
 

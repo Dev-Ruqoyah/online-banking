@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=o">
-    <title>Online Banking</title>
-    <!-- BOOTSTRAP LINK -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <!-- BOOTSTRAP ICON -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=o">
+  <title>Online Banking</title>
+  <!-- BOOTSTRAP LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- BOOTSTRAP ICON -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- AOS LINK -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
 </head>
+
 <body>
 
-    <!-- NAVBAR -->
+  <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top py-2" id="navbar">
     <div class="container">
       <a class="navbar-brand" href="#">OnBank</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -28,6 +35,8 @@
             <a class="nav-link fs-5" href="#">About</a>
           </li>
 
+          
+
           <li class="nav-item">
             <a class="nav-link fs-5" href="#">Savings</a>
           </li>
@@ -38,258 +47,400 @@
           <li class="nav-item">
             <a class="nav-link fs-5" href="#">Login</a>
           </li>
-         
-         
+
+
         </ul>
-        
+
+      </div>
+      
+    </div>
+  </nav>
+  <div class="overflow-x-hidden">
+
+
+    <!-- Main section -->
+    <main>
+      <div class="container h-100">
+        <div class="row h-100 ">
+          <div
+            class="main-content col-lg-6 col-md-6 col-sm-12 text-white h-100 d-flex flex-column justify-content-center align-items-start h-100" data-aos="fade-down" data-aos-duration="3000"   >
+            <h1>Fast And Simple Digital Payment Solution</h1>
+            <p class="fs-5"> Manage your finances with ease, anytime, anywhere. From seamless transactions to robust
+              security features</p>
+            <button class="btn px-5 py-2 text-white">Learn More</button>
+          </div>
+
+        </div>
+      </div>
+    </main>
+    <!-- Services -->
+    <div class="section services mb-3" data-aos="fade-up"  data-aos-duration="3000">
+      <div class="container mx-auto">
+        <div class="row mx-auto ovx gap-2 services-container">
+          <div class="col-lg-3 col-md-6 col-sm-12 services-box py-5 
+                  my-auto rounded-3 shadow">
+            <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
+              <div class="hero-icon d-flex align-items-center justify-content-center " style="width: 50px;">
+                <img src="./image/online-payment.gif" width="100%" class="rounded-3" alt="">
+              </div>
+              <h5>Money Transfer</h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 services-box py-5 rounded-3 shadow my-auto">
+            <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
+              <div class="hero-icon d-flex align-items-center " style="width: 50px;">
+                <img src="./image/atm.gif" width="100%" class="rounded-3" alt="">
+              </div>
+              <h5>Withdrawal</h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 services-box py-5 rounded-3 shadow my-auto
+                  ">
+            <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
+              <div class="hero-icon d-flex align-items-center " style="width: 50px;">
+                <img src="./image/savings.gif" width="100%" class="rounded-3" alt="">
+              </div>
+              <h5>Bank Deposit</h5>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 services-box py-5 rounded-3 shadow my-auto">
+            <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
+              <div class="hero-icon d-flex align-items-center " style="width: 50px;">
+                <img src="./image/payment-app.gif" width="100%" class="rounded-3" alt="">
+              </div>
+              <h5>Online Payment</h5>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-</nav>
-  <div class="overflow-x-hidden">
-      
-        
-      <!-- Main section -->
-      <main>
-          <div class="container h-100">
-              <div class="row h-100 ">
-                  <div class="main-content col-lg-6 col-md-6 col-sm-12 text-white h-100 d-flex flex-column justify-content-center align-items-start h-100">
-                      <h1>Fast And Simple  Digital Payment  Solution</h1>
-                      <p class="fs-5"> Manage your finances with ease, anytime, anywhere. From seamless transactions to robust security features</p>
-                      <button class="btn px-5 py-2 text-white">Learn More</button>
-                  </div>
-                  
+
+    <!--ABOUT SECTION  -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="row gap-2">
+              <div class="col-lg-6 col-md-6 col-12">
+                <div class="first-image">
+                  <img src="./image/about2.jpg" class="rounded-3" alt="" width="100%">
+                </div>
               </div>
-          </div>
-      </main>
-      <!-- Services -->
-      <div class="section services mb-3">
-          <div class="container mx-auto">
-              <div class="row mx-auto ovx gap-2 services-container">
-                  <div class="col-lg-3 col-md-6 col-sm-12 services-box py-5 
-                  my-auto rounded-3 shadow">
-                    <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
-                      <div class="hero-icon d-flex align-items-center justify-content-center " style="width: 50px;">
-                        <img src="./image/online-payment.gif" width="100%" class="rounded-3" alt="">
-                      </div>
-                      <h5>Money Transfer</h5>
-                    </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-sm-12 services-box py-5 rounded-3 shadow my-auto">
-                    <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
-                      <div class="hero-icon d-flex align-items-center " style="width: 50px;">
-                        <img src="./image/atm.gif" width="100%" class="rounded-3" alt="">
-                      </div>
-                      <h5>Withdrawal</h5>
-                    </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-sm-12 services-box py-5 rounded-3 shadow my-auto
-                  ">
-                    <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
-                      <div class="hero-icon d-flex align-items-center " style="width: 50px;">
-                        <img src="./image/savings.gif" width="100%" class="rounded-3" alt="">
-                      </div>
-                      <h5>Bank Deposit</h5>
-                    </div>
-                  </div>
-                  <div class="col-lg-3 col-md-6 col-sm-12 services-box py-5 rounded-3 shadow my-auto">
-                    <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
-                      <div class="hero-icon d-flex align-items-center " style="width: 50px;">
-                        <img src="./image/payment-app.gif" width="100%" class="rounded-3" alt="">
-                      </div>
-                      <h5>Online Payment</h5>
-                    </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  
-      <!--ABOUT SECTION  -->
-      <section class="py-5 bg-light">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="row gap-2">
-                <div class="col-lg-6 col-md-6 col-12">
-                  <div class="first-image">
-                    <img src="./image/about2.jpg"  class="rounded-3" alt="" width="100%">
+              <div class="col-lg-6 col-md-6 col-12 row gap-4">
+                <div class="col-lg-12 col-md-12 col-sm-6 dsm-none">
+                  <div class="second-image" style="height: 185px;">
+                    <img src="./image/about.jpg" style="object-fit: cover;" alt="" class="rounded-3" width="100%"
+                      height="100%">
                   </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-12 row gap-4">
-                  <div class="col-lg-12 col-md-12 col-sm-6 dsm-none">
-                    <div class="second-image" style="height: 185px;">
-                      <img src="./image/about.jpg" style="object-fit: cover;" alt="" class="rounded-3" width="100%" height="100%">
-                    </div>
-                  </div>
-                  <div class="col-lg-12 col-md-12 col-sm-6 dsm-none">
-                    <div class="third-image" style="height: 185px; object-fit: cover;">
-                      <img src="./image/about3.jpg" style="object-fit: cover;" alt=""  class="rounded-3" width="100%" height="100%"
-                      >
-                    </div>
+                <div class="col-lg-12 col-md-12 col-sm-6 dsm-none">
+                  <div class="third-image" style="height: 185px; object-fit: cover;">
+                    <img src="./image/about3.jpg" style="object-fit: cover;" alt="" class="rounded-3" width="100%"
+                      height="100%">
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <div class="about-content">
-                <p class="fsize-5 m-0 tcolor">Reliable Online Banking Platform</p>
-                <h2 class="fs-1 ">Tranfer and Deposit Money Anytime and Anywhere</h2>
-                <p class="fsize-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae quod repudiandae non sit amet quidem voluptas repellat quas distinctio obcaecati soluta doloribus, voluptates explicabo alias?</p>
-                <button class="btn px-5 py-2 text-white">Get Started</button>
-  
-              </div>
-            </div>
           </div>
-        </div>
-      </section>
-  
-      <!-- ABOUT SECTION2 -->
-       <section class="py-5 bg-light">
-        <div class="container mx-auto">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-12">
-              <p class="fsize-5 tcolor m-0">Higly Secured With Zero Vulnerability</p>
-              <h2 class="fs-1">Secured Technology and Very Fast Processes</h2>
-              <p class="fsize-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam reprehenderit quibusdam numquam alias. Tenetur vero assumenda repellendus eos non temporibus aperiam praesentium voluptatem.
-              </p>
+          <div class="col-lg-6 col-md-6 col-sm-12"  data-aos="fade-left"  data-aos-duration="3000">
+            <div class="about-content">
+              <p class="fsize-5 m-0 tcolor">Reliable Online Banking Platform</p>
+              <h2 class="fs-1 ">Tranfer and Deposit Money Anytime and Anywhere</h2>
+              <p class="fsize-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae quod repudiandae
+                non sit amet quidem voluptas repellat quas distinctio obcaecati soluta doloribus, voluptates explicabo
+                alias?</p>
               <button class="btn px-5 py-2 text-white">Get Started</button>
+
             </div>
-            <div class="col-lg-6 col-md-6 col-12">
-              <div class="about2-image" style="height: 370px;">
-                <img src="./image/banner.jpg" style="object-fit: cover;" width="100%" height="100%" class="rounded-3"  alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION2 -->
+    <section class="py-5 bg-light">
+      <div class="container mx-auto">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-12"  data-aos="fade-right"  data-aos-duration="3000">
+            <p class="fsize-5 tcolor m-0">Higly Secured With Zero Vulnerability</p>
+            <h2 class="fs-1">Secured Technology and Very Fast Processes</h2>
+            <p class="fsize-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam reprehenderit quibusdam numquam alias.
+              Tenetur vero assumenda repellendus eos non temporibus aperiam praesentium voluptatem.
+            </p>
+            <button class="btn px-5 py-2 text-white">Get Started</button>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12">
+            <div class="about2-image" style="height: 370px;">
+              <img src="./image/banner.jpg" style="object-fit: cover;" width="100%" height="100%" class="rounded-3"
+                alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="py-5">
+      <div class="container">
+        <div class="header py-3 d-flex flex-column justify-content-center align-items-center pb-4">
+          <p class="tcolor fsize-5 m-0">Our Services</p>
+          <h2 class="m-0 fs-1">Online Banking at Your Fingertips</h2>
+        </div>
+        <div class="row ovx gap-3"  data-aos="fade-up"  data-aos-duration="3000">
+          <div class="col-lg-4 col-md-4 col-sm-12 services-box upDown  py-3 bg-light 
+              my-auto rounded-3 ">
+            <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
+              <div class="hero-icon d-flex align-items-center justify-content-center " style="width: 50px;">
+                <img src="./image/shield.gif" width="100%" class="rounded-3" alt="">
+              </div>
+              <p class="fsize-5 m-0 tcolor"><b>Checking</b></p>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam officiis
+                error cupiditate, accusantium facere.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 services-box upDown py-3 bg-light 
+              my-auto rounded-3 ">
+            <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
+              <div class="hero-icon d-flex align-items-center justify-content-center " style="width: 50px;">
+                <img src="./image/safe-box.gif" width="100%" class="rounded-3" alt="">
+              </div>
+              <p class="fsize-5 m-0 tcolor"><b>Savings</b></p>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam officiis
+                error cupiditate, accusantium facere.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 services-box upDown py-3 bg-light 
+              my-auto rounded-3 ">
+            <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
+              <div class="hero-icon d-flex align-items-center justify-content-center " style="width: 50px;">
+                <img src="./image/real-estate.gif" width="100%" class="rounded-3" alt="">
+              </div>
+              <p class="fsize-5 m-0 tcolor"><b>Home Loan</b></p>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam officiis
+                error cupiditate, accusantium facere.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 services-box downUp py-3 bg-light 
+              my-auto rounded-3 ">
+            <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
+              <div class="hero-icon d-flex align-items-center justify-content-center " style="width: 50px;">
+                <img src="./image/login-.gif" width="100%" class="rounded-3" alt="">
+              </div>
+              <p class="fsize-5 m-0 tcolor"><b>Personal Account</b></p>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam officiis
+                error cupiditate, accusantium facere.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 services-box downUp py-3 bg-light 
+              my-auto rounded-3 ">
+            <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
+              <div class="hero-icon d-flex align-items-center justify-content-center " style="width: 50px;">
+                <img src="./image/credit-card.gif" width="100%" class="rounded-3" alt="">
+              </div>
+              <p class="fsize-5 m-0 tcolor"><b>Credit Card</b></p>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam officiis
+                error cupiditate, accusantium facere.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 services-box downUp py-3 bg-light 
+              my-auto rounded-3 ">
+            <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
+              <div class="hero-icon d-flex align-items-center justify-content-center " style="width: 50px;">
+                <img src="./image/loan.gif" width="100%" class="rounded-3" alt="">
+              </div>
+              <p class="fsize-5 m-0 tcolor"><b>Other Loans</b></p>
+              <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam officiis
+                error cupiditate, accusantium facere.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEPS SECTION -->
+    <section class="py-5">
+      <div class="container">
+        <div class="header py-3 d-flex flex-column justify-content-center align-items-center pb-4">
+          <p class="tcolor fsize-5 m-0">Get Started</p>
+          <h2 class="m-0 fs-1 text-center">Streamlined Processes For Hassle- <br>Free Money Movement</h2>
+        </div>
+        <div class="row gap-3">
+          <div class="col-lg-3 col-md-3  col-sm-6 shadow p-3 py-4 mx-auto"  data-aos="fade-right"  data-aos-duration="3000">
+            <div class="step-content position-relative">
+              <div class="num px-3 py-2 rounded-circle tbg position-absolute fsize-5 text-white">1</div>
+              <div class="step-card">
+                <h5>CREATE ACCOUNT</h5>
+                <p>Creating your online Banking Account has never been easier</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3  col-sm-6 shadow p-3 py-4 mx-auto"  data-aos="fade-right"  data-aos-duration="3000">
+            <div class="step-content position-relative">
+              <div class="num px-3 py-2 rounded-circle tbg position-absolute fsize-5 text-white">2</div>
+              <div class="step-card">
+                <h5>VERIFY IDENTITY</h5>
+                <p>Use our user-friendly identity verification solutions</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3  col-sm-6 shadow p-3 py-4 mx-auto"  data-aos="fade-left"  data-aos-duration="3000">
+            <div class="step-content position-relative d-flex flex-column justify-content-center">
+              <div class="num px-3 py-2 rounded-circle tbg position-absolute fsize-5 text-white">3</div>
+              <div class="step-card">
+                <h5>TAP YOUR ACCOUNT</h5>
+                <p>Experience the convenience of modern banking today</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3  col-sm-6 shadow p-3 py-4 mx-auto"  data-aos="fade-left"  data-aos-duration="3000">
+            <div class="step-content position-relative d-flex flex-column justify-content-center">
+              <div class="num px-3 py-2 rounded-circle tbg position-absolute fsize-5 text-white">4</div>
+              <div class="step-card">
+                <h5>COMFIRM AND SEND</h5>
+                <p>Finalize your Transaction securely.Your financial peace start here.</p>
               </div>
             </div>
           </div>
         </div>
-       </section>
-  
-       <!-- SERVICES SECTION -->
-        <section class="py-5">
-          <div class="container">
-            <div class="header py-3 d-flex flex-column justify-content-center align-items-center pb-4">
-              <p class="tcolor fsize-5 m-0">Our Services</p>
-              <h2 class="m-0 fs-1">Online Banking at Your Fingertips</h2>
-            </div>
-            <div class="row ovx gap-3">
-              <div class="col-lg-4 col-md-4 col-sm-12 services-box upDown  py-3 bg-light 
-              my-auto rounded-3 ">
-                <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
-                  <div class="hero-icon d-flex align-items-center justify-content-center " style="width: 50px;">
-                    <img src="./image/shield.gif" width="100%" class="rounded-3" alt="">
-                  </div>
-                  <p class="fsize-5 m-0 tcolor"><b>Checking</b></p>
-                  <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam officiis error cupiditate, accusantium facere.</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12 services-box upDown py-3 bg-light 
-              my-auto rounded-3 ">
-                <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
-                  <div class="hero-icon d-flex align-items-center justify-content-center " style="width: 50px;">
-                    <img src="./image/safe-box.gif" width="100%" class="rounded-3" alt="">
-                  </div>
-                  <p class="fsize-5 m-0 tcolor"><b>Savings</b></p>
-                  <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam officiis error cupiditate, accusantium facere.</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12 services-box upDown py-3 bg-light 
-              my-auto rounded-3 ">
-                <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
-                  <div class="hero-icon d-flex align-items-center justify-content-center " style="width: 50px;">
-                    <img src="./image/real-estate.gif" width="100%" class="rounded-3" alt="">
-                  </div>
-                  <p class="fsize-5 m-0 tcolor"><b>Home Loan</b></p>
-                  <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam officiis error cupiditate, accusantium facere.</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12 services-box downUp py-3 bg-light 
-              my-auto rounded-3 ">
-                <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
-                  <div class="hero-icon d-flex align-items-center justify-content-center " style="width: 50px;">
-                    <img src="./image/login-.gif" width="100%" class="rounded-3" alt="">
-                  </div>
-                  <p class="fsize-5 m-0 tcolor"><b>Personal Account</b></p>
-                  <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam officiis error cupiditate, accusantium facere.</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12 services-box downUp py-3 bg-light 
-              my-auto rounded-3 ">
-                <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
-                  <div class="hero-icon d-flex align-items-center justify-content-center " style="width: 50px;">
-                    <img src="./image/credit-card.gif" width="100%" class="rounded-3" alt="">
-                  </div>
-                  <p class="fsize-5 m-0 tcolor"><b>Credit Card</b></p>
-                  <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam officiis error cupiditate, accusantium facere.</p>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12 services-box downUp py-3 bg-light 
-              my-auto rounded-3 ">
-                <div class="mx-auto d-flex align-items-center flex-column justify-content-center">
-                  <div class="hero-icon d-flex align-items-center justify-content-center " style="width: 50px;">
-                    <img src="./image/loan.gif" width="100%" class="rounded-3" alt="">
-                  </div>
-                  <p class="fsize-5 m-0 tcolor"><b>Other Loans</b></p>
-                  <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi numquam officiis error cupiditate, accusantium facere.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+      </div>
+    </section>
 
-        <!-- STEPS SECTION -->
-         <section class="py-5">
-          <div class="container">
-            <div class="header py-3 d-flex flex-column justify-content-center align-items-center pb-4">
-              <p class="tcolor fsize-5 m-0">Get Started</p>
-              <h2 class="m-0 fs-1 text-center">Streamlined Processes For Hassle- <br>Free Money Movement</h2>
-            </div>
-            <div class="row gap-3">
-              <div class="col-lg-3 col-md-3  col-12 shadow p-3 py-4 mx-auto">
-                <div class="step-content position-relative">
-                  <div class="num px-3 py-2 rounded-circle tbg position-absolute fsize-5 text-white">1</div>
-                  <div class="step-card">
-                    <h5>CREATE ACCOUNT</h5>
-                    <p>Creating your online Banking Account has never been easier</p>
+    <!-- FAQ QUESTION SECTION -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-lg-5 col-sm-12">
+            <p class="fs-5 m-0 tcolor">Have A Question?</p>
+            <h2 class="fs-1">Frequently Asked Questions</h2>
+            <p class="fs-5">Here,you can find all the information you need to reach out to our online bank.Whether you
+              have a questions about your account,need assisstance with our services,or want to provide feedback,we're
+              here to help.</p>
+            <button class="btn px-5 py-2 text-white">Ask a question</button>
+
+          </div>
+          <div class="col-lg-7 col-md-7 col-sm-12">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button fs-5 text-white py-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What is Online Banking?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse text-white collapse "
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body text-black fsize-1">
+                    Online banking, also known as internet banking, is a service provided by banks and financial
+                    institutions that allows customers to conduct various financial transactions over the internet.
+                    Through online banking, customers can access their bank accounts, check their balances, view
+                    transaction history, transfer funds between accounts, pay bills, and perform other banking
+                    activities without physically visiting a bank branch.
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-3  col-12 shadow p-3 py-4 mx-auto">
-                <div class="step-content position-relative">
-                  <div class="num px-3 py-2 rounded-circle tbg position-absolute fsize-5 text-white">2</div>
-                  <div class="step-card">
-                    <h5>VERIFY IDENTITY</h5>
-                    <p>Use our user-friendly identity verification solutions</p>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fs-5 text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    How do I Sign up for Online Banking?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+
+
+                    Signing up for online banking typically involves a few steps,Visit the bank Website.Typically you
+                    will need to provide your account information and create a username and password
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-3  col-12 shadow p-3 py-4 mx-auto">
-                <div class="step-content position-relative d-flex flex-column justify-content-center">
-                  <div class="num px-3 py-2 rounded-circle tbg position-absolute fsize-5 text-white">3</div>
-                  <div class="step-card">
-                    <h5>TAP YOUR ACCOUNT</h5>
-                    <p>Experience the convenience of modern banking today</p>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fs-5 text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Is Online Banking safe?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+
+                    
+                    Online banking can be safe if proper security measures are in place and users take precautions to
+                    protect their personal and financial information. Banks invest heavily in security measures to
+                    safeguard online banking transactions, including encryption technology, firewalls, and multi-factor
+                    authentication.
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-3  col-12 shadow p-3 py-4 mx-auto">
-                <div class="step-content position-relative d-flex flex-column justify-content-center">
-                  <div class="num px-3 py-2 rounded-circle tbg position-absolute fsize-5 text-white">4</div>
-                  <div class="step-card">
-                    <h5>COMFIRM AND SEND</h5>
-                    <p>Finalize your Transaction securely.Your financial peace start here.</p>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fs-5 text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What transactions can I perform online?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+
+                    In online banking, customers can perform a wide range of transactions conveniently from their computer such as view account balance,tranfer fund ,open new account and so on.
                   </div>
                 </div>
               </div>
             </div>
           </div>
-         </section>
+        </div>
+    </section>
 
-         
-  
+    <!-- FOOTER -->
+     <footer class="py-5 bg-black text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-lg-6 col-12 mx-auto">
+            <ul>
+              <li class="fs-4 tcolor"><b>OnBank</b></li>
+              <p>We've built our own platform to take your finances beyond what traditional banks can offer</p>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <ul class="d-flex flex-column gap-1">
+              <li class="fs-5"><b>Quick Links</b></li>
+              <li>Home</li>
+              <li>About</li>
+              <li>Saving</li>
+              <li>Loans</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <ul class="d-flex flex-column gap-1">
+              <li class="fs-5"><b>Contact</b></li>
+              <li>85 broad street,New York</li>
+              <li>Phone:+234-81-4846-2822</li>
+              <li>Email:hamzatrukayat@gmail.com</li>
+            
+            </ul>
+          </div>
+        </div>
+      </div>
+     </footer>
+
   </div>
 
-    <!-- Custom js -->
-     <script src="main.js"></script>
-    <!-- BOOTSTRAP SCRIPT -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+   
+  <!-- Custom js -->
+  <script src="main.js"></script>
+  <!-- BOOTSTRAP SCRIPT -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- INITIALIZE AOS -->
+<script>
+  AOS.init();
+</script>
 </body>
+
 </html>
