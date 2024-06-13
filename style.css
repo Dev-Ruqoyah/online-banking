@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+
+}
+.navbar.scrolled {
+    background-color: #333; 
+}
+li a{
+    position: relative;
+}
+li a::before{
+    content: "";
+    background: #2ecc71;
+    position: absolute;
+    height: 6px;
+    width: 0;
+    bottom: 0;
+    border-radius: 5px;
+    transition: .6s;
+}
+li a:active::before{
+    width: 100%;
+}
+li a:hover::before{
+    width: 100%;
+}
+main{
+    height: 89.5vh;
+    background:linear-gradient(to right,rgba(9, 58, 2, 0.5),rgba(0,0,0,0.5)),url("https://img.freepik.com/free-photo/two-young-people-work-with-computer-modern-office_641386-428.jpg?t=st=1718197243~exp=1718200843~hmac=5f5a2ab553c574b352828f42fc9f10111393c3fd1b83ba8153cf462023cf7e83&w=2740");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-content h1{
+    font-size: 50px;
+}
+button{
+    background: #2ecc71 !important;
+}
+button:hover{
+    background: #2ecc70d0 !important; 
+}
+.services-box{
+    transition: 0.6s ease;
+    /* margin-top: -80px; */
+}
+.services-box:hover{
+    background: #2ecc71 !important ;
+    color: white;
+}
+.tcolor{
+    color: #2ecc71;
+}
+.services-container{
+    margin-top: -20px;
+}
+.fsize-5{
+    font-size: 21px !important;
+}
+.fsize-4{
+    font-size: 20px !important;
+}
+
+.col-lg-3{
+    width: 270px !important;
+}
+.col-lg-4{
+    width: 360px;
+}
+/* SERVICES SECTION */
+.services-box:hover p b{
+    color: white;
+}
+.upDown:hover{
+    transform: translateY(-20px);
+}
+.downUp:hover{
+    transform: translateY(20px);
+}
+
+/* STEPS */
+.tbg{
+    background: #2ecc71;
+}
+.num{
+    top: -30px !important;
+    right: -20px;
+}
+
+@media (max-width:767px) {
+    .ovx{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+    .dsm-none{
+        display: none;
+    }
+}
+
+
