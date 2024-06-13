@@ -29,7 +29,7 @@ li a:hover::before{
 }
 main{
     height: 89.5vh;
-    background:linear-gradient(to right,rgba(9, 58, 2, 0.5),rgba(0,0,0,0.5)),url("https://img.freepik.com/free-photo/two-young-people-work-with-computer-modern-office_641386-428.jpg?t=st=1718197243~exp=1718200843~hmac=5f5a2ab553c574b352828f42fc9f10111393c3fd1b83ba8153cf462023cf7e83&w=2740");
+    background:linear-gradient(to right,rgba(9, 58, 2, 0.5),rgba(0,0,0,0.5)),url("https://img.freepik.com/free-photo/two-young-people-work-with-computer-modern-office_641386-428.jpg?t=st=1718197243~exp=1718200843~hmac=5f5a2ab553c574b352828f42fc9f10111393c3fd1b83ba8153cf462023cf7e83&w=890");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
