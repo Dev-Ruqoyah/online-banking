@@ -5,8 +5,15 @@
     text-decoration: none;
 
 }
-.navbar.scrolled {
-    background-color: #333; 
+#navbar.scrolled {
+    background-color: #333 !important;
+    color: white !important; 
+}
+.nav-link.scrolled{
+    color: white !important; 
+}
+.signupbtn.scrolled{
+    color: white !important; 
 }
 li a{
     position: relative;
@@ -44,7 +51,7 @@ button:hover{
     background: #2ecc70d0 !important; 
 }
 .services-box{
-    transition: 0.6s ease-in;
+    transition: 0.3s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     /* margin-top: -80px; */
 }
@@ -56,7 +63,7 @@ button:hover{
     color: #2ecc71;
 }
 .services-container{
-    margin-top: -20px;
+    margin-top: -60px;
 }
 .fsize-5{
     font-size: 21px !important;
@@ -90,6 +97,19 @@ button:hover{
     top: -30px !important;
     right: -20px;
 }
+.fs-6{
+    font-size: 18px !important;
+}
+.btn-outline-color{
+  border: 2px solid #2ecc71 !important;
+  background: transparent !important;  
+}
+.gap-sm-5{
+    gap: 0 !important;
+}
+input{
+    outline: 0;
+}
 
 @media (max-width:767px) {
     .ovx{
@@ -102,6 +122,21 @@ button:hover{
     }
     section{
         padding: 30px 0 !important;
+    }
+    li a:hover::before{
+        width: 110%;
+    }
+    .gap-sm-5{
+        gap: 25px !important;
+    }
+    .exgap{
+        gap: 30px !important;
+    }
+    .col-6{
+        width: 46% !important;
+    }
+    .text-sms-center{
+        text-align: center !important;
     }
 }
 
